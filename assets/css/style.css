@@ -1,0 +1,33 @@
+body{
+    background: #E37222;
+    color: tan;
+}
+
+button {
+    padding: 15px;
+    margin-right: 10px;
+    color: ghostwhite;
+    background-color: teal;
+    border-radius: 50%;
+    border: 2px solid tan;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1,2)
+}
+
+#findGifs{
+    margin-top: 25px;
+    margin-right: 10px;
+    padding: 15px;
+    color: ghostwhite;
+    background-color: teal;
+    border-radius: 50%;
+    border: 2px solid tan;
+    cursor: pointer;
+}
+
+h1{
+    color: tan;
+}
