@@ -8,7 +8,7 @@ var preGifs= [
     "Scotch",
     "How i met your mother",
     "Star Wars",
-    "Let's go to the mall",
+    "Self-five",
     "The Playbook"
 ]
 //function to make buttons
@@ -75,7 +75,7 @@ $("#forButtons").on("click", ".bubble", function(showGif) {
           // add the rating to gifDiv
           gifDiv.append(rate);
           //gives the image a source to get the image
-          gifPic.attr("src", results[i].images.fixed_height.url);
+          gifPic.attr("src", results[i].images.fixed_height_still.url);
           //data-still
           gifPic.attr("data-still", results[i].images.fixed_height_still.url);
           //data-animate
